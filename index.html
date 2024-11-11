@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 PowerShell Commands</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>100 PowerShell Commands</h1>
+    <p>Click on the "Copy" button to copy the PowerShell command to your clipboard.</p>
+
+    <div class="command-list">
+      <!-- System & Process commands -->
+      <div class="command">
+        <code>Get-Process</code>
+        <button class="copy-btn" data-command="Get-Process">Copy</button>
+      </div>
+      <div class="command">
+        <code>Stop-Process</code>
+        <button class="copy-btn" data-command="Stop-Process">Copy</button>
+      </div>
+      <div class="command">
+        <code>Start-Process</code>
+        <button class="copy-btn" data-command="Start-Process">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Service</code>
+        <button class="copy-btn" data-command="Get-Service">Copy</button>
+      </div>
+      <div class="command">
+        <code>Set-Service</code>
+        <button class="copy-btn" data-command="Set-Service">Copy</button>
+      </div>
+      <div class="command">
+        <code>Restart-Service</code>
+        <button class="copy-btn" data-command="Restart-Service">Copy</button>
+      </div>
+      
+      <!-- File and Directory commands -->
+      <div class="command">
+        <code>Get-ChildItem</code>
+        <button class="copy-btn" data-command="Get-ChildItem">Copy</button>
+      </div>
+      <div class="command">
+        <code>New-Item</code>
+        <button class="copy-btn" data-command="New-Item">Copy</button>
+      </div>
+      <div class="command">
+        <code>Remove-Item</code>
+        <button class="copy-btn" data-command="Remove-Item">Copy</button>
+      </div>
+      <div class="command">
+        <code>Copy-Item</code>
+        <button class="copy-btn" data-command="Copy-Item">Copy</button>
+      </div>
+      <div class="command">
+        <code>Test-Path</code>
+        <button class="copy-btn" data-command="Test-Path">Copy</button>
+      </div>
+      <div class="command">
+        <code>Set-Item</code>
+        <button class="copy-btn" data-command="Set-Item">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Item</code>
+        <button class="copy-btn" data-command="Get-Item">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Content</code>
+        <button class="copy-btn" data-command="Get-Content">Copy</button>
+      </div>
+      <div class="command">
+        <code>Set-Content</code>
+        <button class="copy-btn" data-command="Set-Content">Copy</button>
+      </div>
+      
+      <!-- Network commands -->
+      <div class="command">
+        <code>Test-Connection</code>
+        <button class="copy-btn" data-command="Test-Connection">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-NetIPAddress</code>
+        <button class="copy-btn" data-command="Get-NetIPAddress">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-NetAdapter</code>
+        <button class="copy-btn" data-command="Get-NetAdapter">Copy</button>
+      </div>
+      <div class="command">
+        <code>Set-NetIPAddress</code>
+        <button class="copy-btn" data-command="Set-NetIPAddress">Copy</button>
+      </div>
+      <div class="command">
+        <code>Test-NetConnection</code>
+        <button class="copy-btn" data-command="Test-NetConnection">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-NetRoute</code>
+        <button class="copy-btn" data-command="Get-NetRoute">Copy</button>
+      </div>
+      <div class="command">
+        <code>Set-NetAdapter</code>
+        <button class="copy-btn" data-command="Set-NetAdapter">Copy</button>
+      </div>
+      
+      <!-- User and Group management -->
+      <div class="command">
+        <code>Get-LocalUser</code>
+        <button class="copy-btn" data-command="Get-LocalUser">Copy</button>
+      </div>
+      <div class="command">
+        <code>New-LocalUser</code>
+        <button class="copy-btn" data-command="New-LocalUser">Copy</button>
+      </div>
+      <div class="command">
+        <code>Set-LocalUser</code>
+        <button class="copy-btn" data-command="Set-LocalUser">Copy</button>
+      </div>
+      <div class="command">
+        <code>Remove-LocalUser</code>
+        <button class="copy-btn" data-command="Remove-LocalUser">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-LocalGroup</code>
+        <button class="copy-btn" data-command="Get-LocalGroup">Copy</button>
+      </div>
+      <div class="command">
+        <code>Add-LocalGroupMember</code>
+        <button class="copy-btn" data-command="Add-LocalGroupMember">Copy</button>
+      </div>
+      <div class="command">
+        <code>Remove-LocalGroupMember</code>
+        <button class="copy-btn" data-command="Remove-LocalGroupMember">Copy</button>
+      </div>
+      
+      <!-- Shutdown & Restart Commands -->
+      <div class="command">
+        <code>Restart-Computer</code>
+        <button class="copy-btn" data-command="Restart-Computer">Copy</button>
+      </div>
+      <div class="command">
+        <code>Stop-Computer</code>
+        <button class="copy-btn" data-command="Stop-Computer">Copy</button>
+      </div>
+      <div class="command">
+        <code>Shutdown.exe</code>
+        <button class="copy-btn" data-command="Shutdown.exe">Copy</button>
+      </div>
+
+      <!-- Additional External PowerShell Commands -->
+      <div class="command">
+        <code>Get-WmiObject -Class Win32_OperatingSystem</code>
+        <button class="copy-btn" data-command="Get-WmiObject -Class Win32_OperatingSystem">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Command</code>
+        <button class="copy-btn" data-command="Get-Command">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Date</code>
+        <button class="copy-btn" data-command="Get-Date">Copy</button>
+      </div>
+      <div class="command">
+        <code>Set-Date</code>
+        <button class="copy-btn" data-command="Set-Date">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Content C:\path\to\file.txt</code>
+        <button class="copy-btn" data-command="Get-Content C:\path\to\file.txt">Copy</button>
+      </div>
+      
+      <!-- External Website-Sourced Commands -->
+      <div class="command">
+        <code>Get-Command -Type Cmdlet</code>
+        <button class="copy-btn" data-command="Get-Command -Type Cmdlet">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Command -Type Function</code>
+        <button class="copy-btn" data-command="Get-Command -Type Function">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Help Get-Process</code>
+        <button class="copy-btn" data-command="Get-Help Get-Process">Copy</button>
+      </div>
+      <div class="command">
+        <code>Get-Help Set-Service</code>
+        <button class="copy-btn" data-command="Get-Help Set-Service">Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
